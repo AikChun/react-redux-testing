@@ -20,7 +20,7 @@ export default class CommentBox extends Component {
 	
 	render() {
 		return (
-			<form onSubmit={ this.handleSubmit.bind(this) }className="comment-box">
+			<form onSubmit={ this.handleSubmit.bind(this) } className="comment-box">
 				<textarea value={ this.state.comment } onChange={ this.handleChange.bind(this) } />
 				<button action="submit">Submit Commment</button>
 			</form>
